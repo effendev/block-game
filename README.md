@@ -1,4 +1,4 @@
-#Block Game
+# Block Game
 
 This is a simple project using html, css, and js with an emphasized to javascript scripting. Originally, I want to create a snake game, like the one in [here](!http://patorjk.com/games/snake/). But since the codes in that repo is a little complex for me now, I just made a very basic block game using the combined html, css, and js knowledge I have. 
 
