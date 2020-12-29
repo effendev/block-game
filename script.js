@@ -12,7 +12,7 @@ window.addEventListener('load', () => {
 	block.style.top = parseInt(Math.floor(Math.random() * (containerDimension - 50)))+'px';
 });
 
-function moveBox(event) {
+function moveBlockOnPressed(event) {
 	switch(event.key) {
 		case 'ArrowLeft':
 			if(parseInt(block.style.left) >= 5) {
@@ -51,5 +51,5 @@ function moveBox(event) {
 }
 
 window.addEventListener('keydown', (event) => {
-	moveBox(event);
+	moveBlockOnPressed(event);
 });
